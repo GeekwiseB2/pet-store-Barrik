@@ -1,0 +1,95 @@
+.container-fluid {
+  padding: 0px;
+}
+p {
+  font-size: 16px;
+}
+.header .logo {
+  max-height: 90px;
+}
+.header h1 {
+  font-family: 'Satisfy', cursive;
+  color: #FF8079; /*RED*/
+  display: inline;
+}
+.nav-pills {
+  margin-top:40px;
+  font-size: 20px;
+}
+.nav-pills .active a {
+  background-color: inherit!important;
+  color: #337ab7!important;
+  border-bottom: 3px solid #337ab7;
+}
+.jumbotron {
+  border-radius: 0px!important;
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.jumbotron .slogan {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.featured .item {
+  padding: 0px 5px;
+}
+.featured .thumbnail {
+  background-color: #EDF1F4;
+  padding: 15px;
+  padding-bottom: 0px;
+  border: none;
+  border-radius: 5%;
+}
+.thumbnail .caption {
+  padding-bottom: 5px;
+}
+.btn-primary {
+  text-align: left;
+  background-color: #5BC0DE;
+  border: none;
+  padding: 3px 8px;
+}
+.service {
+  text-align: center;
+}
+.service h4 {
+  margin: 20px 0px 15px 0px;
+  text-transform: uppercase;
+}
+footer {
+  background-color: #231F20;
+  color: #BFC0C1;
+  margin-top: 100px;
+  padding: 25px 200px;
+}
+footer .logo {
+  max-height: 120px;
+}
+footer .lines {
+  border-left: 2px solid #333333;
+  border-right: 2px solid #333333;
+}
+footer .vert {
+  padding-top: 13px;
+}
+footer .copyright {
+  margin-top: 20px;
+  color: #4E4E4E;
+}
+.social {
+  color: #BFC0C1;
+}
+.social:hover {
+  color: #4E4E4E;
+  text-decoration: none;
+}

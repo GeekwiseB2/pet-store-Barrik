@@ -4,12 +4,110 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pet Store</title>
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<!--GOOGLE FONTS-->
+	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
+	<div class="container-fluid">
+		<div class="container header">
+			<img class="logo" src="img/petstore_logo.png" alt="pet store logo">
+			<h1>Pet Store</h1>
+			<ul class="nav nav-pills navbar-right">
+			  <li role="presentation" class="active"><a href="#">Home</a></li>
+			  <li role="presentation"><a href="#">Profile</a></li>
+			  <li role="presentation"><a href="#">Messages</a></li>
+			</ul> <!--END NAV-->
+		</div> <!--END HEADER-->
+
+		<div class="jumbotron">
+	  	<div class="container">
+	    	<h1 class="slogan">The products they love. Prices that you like.</h1>
+	  	</div>
+		</div> <!--END JUMBOTRON-->
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<h2>Featured</h2>
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate sed veritatis nesciunt doloremque veniam, maiores fuga quibusdam necessitatibus id magnam sint, deleniti voluptate fugit velit reprehenderit neque facere ipsa magni!</p>
+					<div class="row featured">
+						<div class="col-sm-4 item">
+							<div class="thumbnail">
+					      <img src="img/product1.jpg" alt="dog bowl">
+					      <div class="caption">
+					        <h3>Dog Bowl</h3>
+					        <p class="text-justify">The best dog bowl for your dog.</p>
+					        <p><a href="#" class="btn btn-primary" role="button">Purchase Now</a></p>
+					      </div>
+					    </div>
+						</div> <!--END THUMBNAIL-->
+
+						<div class="col-sm-4 item">
+							<div class="thumbnail">
+					      <img src="img/product2.jpg" alt="cat toy">
+					      <div class="caption">
+					        <h3>Cat Toy</h3>
+					        <p class="text-justify">The best cat toy for your favorite cat.</p>
+					        <p><a href="#" class="btn btn-primary" role="button">Purchase Now</a></p>
+					      </div>
+					    </div>
+						</div> <!--END THUMBNAIL-->
+
+						<div class="col-sm-4 item">
+							<div class="thumbnail">
+					      <img src="img/product3.jpg" alt="parrot stuff">
+					      <div class="caption">
+					        <h3>Parrot Stuff</h3>
+					        <p class="text-justify">The best parrot stuff for your parrot.</p>
+					        <p><a href="#" class="btn btn-primary" role="button">Purchase Now</a></p>
+					      </div>
+					    </div>
+						</div> <!--END THUMBNAIL-->
+					</div>
+
+				</div> <!--END OF FEATURED-->
+				<div class="col-sm-offset-1 col-sm-3">
+					<h2 class="text-center">Services</h2>
+					<div class="service">
+						<a href="#"><h4>Adopt a Cat</h4></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, maiores!</p>
+						<a href="#"><h4>Adopt a Dog</h4></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, maiores!</p>
+						<a href="#"><h4>Adopt a Fish</h4></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, maiores!</p>
+					</div>
+
+				</div> <!--END OF SERVICES-->
+			</div>
+		</div> <!--END OF FEATURED/SERVICES-->
+
+		<footer>
+			<div class="row">
+				<div class="col-md-4">
+					<img class="logo center-block" src="img/petstore_logo.png" alt="pet store logo">
+				</div>
+				<div class="col-md-4 lines vert">
+					<p>Pet Store</p>
+					<p><a href="https://goo.gl/maps/UydgRnNSWyn" target="about:blank" class="social">Fresno, CA</a></p>
+					<p><a href="mailto:info@petstore.com" target="about:blank" class="social">info@petstore.com</a></p>
+				</div>
+				<div class="col-md-4 vert">
+					<p><a href="#" class="social"><i class="fa fa-twitter"></i> Twitter</a></p>
+					<p><a href="#" class="social"><i class="fa fa-facebook"></i> Facebook</a></p>
+					<p><a href="#" class="social"><i class="fa fa-linkedin"></i> LinkedIn</a></p>
+				</div>
+			</div>
+			<p class="copyright text-center"><i class="fa fa-copyright"></i>Pet Store, Inc. All rights reserved.</p>
+		</footer>
+
+	</div>
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
